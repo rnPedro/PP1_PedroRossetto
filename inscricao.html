@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscrição - WWDC</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" type="image/x-icon" href="assets/img/logo-favicon.png">
+    </head>
+    <body>
+        <!-- Sticky header -->
+        <header class="header-outer">
+            <div class="header-inner responsive-wrapper">
+                <div class="header-logo">
+                    <a href="index.html"><img src="assets/img/logo-black.webp" /></a>
+                </div>
+                <nav class="header-navigation">
+                    <!-- Hamburger icon -->
+                    <input class="side-menu" type="checkbox" id="side-menu"/>
+                    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+                    <div class="nav">
+                        <a href="index.html">Home</a>
+                        <a href="programacao.html">Programação</a>
+                        <a class="selected" href="inscricao.html">Inscrição</a>
+                        <a href="local.html">Local</a>
+                        <a href="apple.html">Apple</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="menu-background"></div>
+        <div class="video-container">
+            <img src="assets/img/coding-design-essentials_2x.png" alt="">
+            <h1>Inscrição</h1>
+            <p>
+                Seja parte da revolução tecnológica! Inscreva-se agora na Apple Worldwide Developers Conference (WWDC) e garanta seu lugar no evento mais emocionante do ano. Junte-se a milhares de desenvolvedores, inovadores e entusiastas de todo o mundo enquanto exploramos o futuro da tecnologia da Apple juntos.
+            </p>            
+        </div>
+        <main class="main">
+            <div class="main-content responsive-wrapper">
+                <article class="widget">
+                    <h2>Inscrição</h2>
+                    <hr>
+                    <form id="form" action="mensagem.html">
+                        <div class="group">
+                            <label for="name">Nome</label>
+                            <input name="name" type="text">
+                        </div>
+                        <div class="group">
+                            <label for="lastname">Sobrenome</label>
+                            <input name="lastname" type="text">
+                        </div>
+                        <div class="group">
+                            <label for="age">Idade</label>
+                            <input name="age" type="number">
+                        </div>
+                        <div class="group">
+                            <label for="sex">Sexo</label>
+                            <div class="checkbox">
+                                <div class="radio"><input name="sex" value="m" type="radio"><p>Masculino</p></div>
+                                <div class="radio"><input name="sex" value="f" type="radio"><p>Feminino</p></div>
+                                <div class="radio"><input name="sex" value="x" type="radio"><p>Outro</p></div>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <label for="interest">Cursos de Interesse</label>
+                            <div class="checkbox">
+                                <input name="interest" value="dev-ios" type="checkbox"><p>Curso de Desenvolvimento iOS Avançado</p>
+                            </div>
+                            <div class="checkbox">
+                                <input name="interest" value="introdution-swift" type="checkbox"><p>Curso de Introdução à Programação em Swift</p>
+                            </div>
+                            <div class="checkbox">
+                                <input name="interest" value="dev-arkit" type="checkbox"><p>Curso de Desenvolvimento de Realidade Aumentada com ARKit</p>
+                            </div>
+                            <div class="checkbox">
+                                <input name="interest" value="dev-watchos" type="checkbox"><p>Curso de Desenvolvimento de Aplicativos watchOS</p>
+                            </div>
+                            <div class="checkbox">
+                                <input name="interest" value="dev-macos" type="checkbox"><p>Curso de Desenvolvimento de Aplicativos macOS</p>
+                            </div>
+                            <div class="checkbox">
+                                <input name="interest" value="segurity-ios" type="checkbox"><p>Curso de Segurança e Privacidade em Aplicativos iOS</p>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <label for="function">Função</label>
+                            <select name="function">
+                                <option value="client">Cliente</option>
+                                <option value="employee">Funcionário</option>
+                                <option value="organizer">Organizador</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="form-footer">
+                            <button type="submit" class="button">Enviar</button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <img src="assets/img/logo-white.webp" />
+                <p>Fique atualizado com as novidades da Apple na WWDC. Saiba mais sobre as últimas inovações em software e hardware da Apple aqui.</p>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2023 <a href="apple.html">apple</a>  </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
